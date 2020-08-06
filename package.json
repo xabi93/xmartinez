@@ -29,7 +29,7 @@
     "node-sass": "^4.12.0",
     "nuxt": "^2.0.0",
     "nuxt-i18n": "^6.5.0",
-    "ramda": "^0.27.0"
+    "ramda": "^0.27.1"
   },
   "devDependencies": {
     "@fortawesome/free-brands-svg-icons": "^5.14.0",
