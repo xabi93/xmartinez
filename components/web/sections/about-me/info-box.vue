@@ -3,7 +3,15 @@
     <span class="fa-li">
       <fa :icon="icon" class="flex-initial" />
     </span>
-    {{ text }}
+    <component
+      :is="link ? 'a' : 'span'"
+      :href="link || ''"
+      target="_blank"
+      rel="noopener"
+      class="no-underline"
+    >
+      {{ text }}
+    </component>
   </li>
 </template>
 <script>
@@ -11,12 +19,16 @@ export default {
   props: {
     text: {
       type: [String, Number],
-      required: true
+      required: true,
     },
     icon: {
       type: Object,
-      default: null
-    }
-  }
+      default: null,
+    },
+    link: {
+      type: String,
+      default: null,
+    },
+  },
 }
 </script>

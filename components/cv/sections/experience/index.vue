@@ -14,13 +14,13 @@ export default {
   name: 'AboutMe',
   components: {
     Layout,
-    Item
+    Item,
   },
   data() {
     return {
-      data: this.$t('sections.experience')
+      data: this.$t('sections.experience'),
     }
-  }
+  },
 }
 </script>
 

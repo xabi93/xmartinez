@@ -8,12 +8,12 @@ import Layout from '../layout'
 export default {
   name: 'Contact',
   components: {
-    Layout
+    Layout,
   },
   data() {
     return {
-      data: this.$t('sections.contact')
+      data: this.$t('sections.contact'),
     }
-  }
+  },
 }
 </script>

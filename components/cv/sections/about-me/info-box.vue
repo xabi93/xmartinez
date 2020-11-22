@@ -11,12 +11,12 @@ export default {
   props: {
     text: {
       type: [String, Number],
-      required: true
+      required: true,
     },
     icon: {
       type: Object,
-      default: null
-    }
-  }
+      default: null,
+    },
+  },
 }
 </script>

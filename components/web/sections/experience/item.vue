@@ -55,13 +55,13 @@ import Tag from './tag'
 export default {
   name: 'Item',
   components: {
-    Tag
+    Tag,
   },
   props: {
     job: {
       type: Object,
-      required: true
-    }
+      required: true,
+    },
   },
   computed: {
     endDate() {
@@ -71,7 +71,7 @@ export default {
     },
     check() {
       return faCheck
-    }
-  }
+    },
+  },
 }
 </script>

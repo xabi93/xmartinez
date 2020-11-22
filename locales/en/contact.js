@@ -1,18 +1,18 @@
 export default {
   twitter: {
-    url: 'https://twitter.com/xabi_03'
+    url: 'https://twitter.com/xabi_03',
   },
   instagram: {
-    url: 'https://www.instagram.com/xabi_93'
+    url: 'https://www.instagram.com/xabi_93',
   },
   linkedin: {
-    url: 'https://www.linkedin.com/in/xmartinez'
+    url: 'https://www.linkedin.com/in/xmartinez',
   },
   github: {
-    url: 'https://github.com/xabi93'
+    url: 'https://github.com/xabi93',
   },
   email: {
     talk: `Let's talk`,
-    url: 'hello@xmartinez.dev'
-  }
+    url: 'hello@xmartinez.dev',
+  },
 }

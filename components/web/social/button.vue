@@ -14,12 +14,12 @@ export default {
   props: {
     link: {
       type: [String],
-      required: true
+      required: true,
     },
     icon: {
       type: Object,
-      required: true
-    }
-  }
+      required: true,
+    },
+  },
 }
 </script>

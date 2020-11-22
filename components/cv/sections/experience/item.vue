@@ -43,20 +43,20 @@ import Tag from './tag'
 export default {
   name: 'Item',
   components: {
-    Tag
+    Tag,
   },
   props: {
     job: {
       type: Object,
-      required: true
-    }
+      required: true,
+    },
   },
   computed: {
     endDate() {
       return isNil(this.job.end)
         ? this.$t('sections.experience.present')
         : this.$d(new Date(this.job.end), 'yearMonth')
-    }
-  }
+    },
+  },
 }
 </script>

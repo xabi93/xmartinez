@@ -20,7 +20,7 @@ export default {
     MyHeader,
     AboutMe,
     Experience,
-    MyFooter
-  }
+    MyFooter,
+  },
 }
 </script>

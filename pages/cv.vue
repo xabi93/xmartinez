@@ -18,8 +18,8 @@ export default {
   components: {
     MyHeader,
     Experience,
-    AboutMe
-  }
+    AboutMe,
+  },
 }
 </script>
 
