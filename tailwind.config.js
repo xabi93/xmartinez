@@ -13,11 +13,11 @@ module.exports = {
     extend: {
       colors: {
         'header-gb': colors.gray['900'],
-        link: colors.teal['500']
+        link: colors.teal['500'],
       },
       fontFamily: {
-        sans: ['Open Sans', ...defaultTheme.fontFamily.sans]
-      }
-    }
-  }
+        sans: ['Open Sans', ...defaultTheme.fontFamily.sans],
+      },
+    },
+  },
 }

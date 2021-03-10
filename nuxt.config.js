@@ -13,10 +13,10 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: process.env.npm_package_description || ''
-      }
+        content: process.env.npm_package_description || '',
+      },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
   /*
    ** Customize the progress-bar color
@@ -48,32 +48,32 @@ export default {
             en: {
               yearMonth: {
                 year: 'numeric',
-                month: 'short'
-              }
-            }
-          }
-        }
-      }
+                month: 'short',
+              },
+            },
+          },
+        },
+      },
     ],
     [
       '@nuxtjs/fontawesome',
       {
-        component: 'fa'
-      }
+        component: 'fa',
+      },
     ],
     '@nuxtjs/tailwindcss',
     [
       'nuxt-webfontloader',
       {
         google: {
-          families: ['Open Sans&display=swap']
-        }
-      }
-    ]
+          families: ['Open Sans&display=swap'],
+        },
+      },
+    ],
   ],
   purgeCSS: {
     whitelist: ['svg-inline--fa'],
-    whitelistPatterns: [/shiki/, /fa-$/]
+    whitelistPatterns: [/shiki/, /fa-$/],
   },
   /*
    ** Nuxt.js modules
@@ -84,9 +84,9 @@ export default {
     [
       '@nuxtjs/google-analytics',
       {
-        id: process.env.GOOGLE_ANALYTICS_ID
-      }
-    ]
+        id: process.env.GOOGLE_ANALYTICS_ID,
+      },
+    ],
   ],
   /*
    ** Axios module configuration
@@ -108,6 +108,6 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) {}
-  }
+    extend(config, ctx) {},
+  },
 }

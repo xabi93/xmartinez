@@ -18,7 +18,7 @@ export default {
   data() {
     return {
       firstPosition: null,
-      fixed: false
+      fixed: false,
     }
   },
   mounted() {
@@ -35,7 +35,7 @@ export default {
   methods: {
     isInViewport() {
       this.fixed = this.firstPosition < window.pageYOffset
-    }
-  }
+    },
+  },
 }
 </script>

@@ -29,7 +29,7 @@ export default {
   components: {
     Social,
     MailMe,
-    Cv
+    Cv,
   },
   computed: {
     hearth() {
@@ -37,7 +37,7 @@ export default {
     },
     vuejs() {
       return faVuejs
-    }
-  }
+    },
+  },
 }
 </script>

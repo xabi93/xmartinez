@@ -16,7 +16,7 @@ export default {
   computed: {
     plane() {
       return faPaperPlane
-    }
-  }
+    },
+  },
 }
 </script>

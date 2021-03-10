@@ -11,14 +11,14 @@ import {
   faTwitter,
   faLinkedinIn,
   faGithub,
-  faInstagram
+  faInstagram,
 } from '@fortawesome/free-brands-svg-icons'
 import SocialButton from './button'
 
 export default {
   name: 'Social',
   components: {
-    SocialButton
+    SocialButton,
   },
   computed: {
     twitter() {
@@ -32,7 +32,7 @@ export default {
     },
     instagram() {
       return faInstagram
-    }
-  }
+    },
+  },
 }
 </script>

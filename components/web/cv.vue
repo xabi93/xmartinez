@@ -16,7 +16,7 @@ export default {
   computed: {
     file() {
       return faFileDownload
-    }
-  }
+    },
+  },
 }
 </script>
