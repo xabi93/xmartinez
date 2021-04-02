@@ -27,7 +27,7 @@
     "@nuxtjs/google-analytics": "^2.4.0",
     "date-fns": "^2.19.0",
     "node-sass": "^5.0.0",
-    "nuxt": "^2.15.3",
+    "nuxt": "^2.15.4",
     "nuxt-i18n": "^6.22.3",
     "ramda": "^0.27.1"
   },
