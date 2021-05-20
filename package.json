@@ -27,11 +27,12 @@
     "@nuxtjs/google-analytics": "^2.4.0",
     "date-fns": "^2.21.3",
     "node-sass": "^5.0.0",
-    "nuxt": "^2.15.6",
+    "nuxt": "^2.2.0",
     "nuxt-i18n": "^6.27.0",
     "ramda": "^0.27.1"
   },
   "devDependencies": {
+    "@aceforth/nuxt-optimized-images": "^1.4.0",
     "@fortawesome/free-brands-svg-icons": "^5.15.3",
     "@fortawesome/free-regular-svg-icons": "^5.15.3",
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
@@ -45,9 +46,12 @@
     "eslint-plugin-nuxt": ">=2.0.0",
     "eslint-plugin-prettier": "^3.4.0",
     "husky": "^6.0.0",
+    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "imagemin-svgo": "^9.0.0",
     "lint-staged": "^11.0.0",
     "nuxt-webfontloader": "^1.1.0",
-    "postcss-import": "^12.0.1",
+    "postcss-import": "^14.0.2",
     "prettier": "^2.3.0",
     "sass-loader": "^10.1.1"
   }

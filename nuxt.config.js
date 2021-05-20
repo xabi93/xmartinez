@@ -70,7 +70,11 @@ export default {
         },
       },
     ],
+    '@aceforth/nuxt-optimized-images',
   ],
+  optimizedImages: {
+    optimizeImages: true
+  },
   purgeCSS: {
     whitelist: ['svg-inline--fa'],
     whitelistPatterns: [/shiki/, /fa-$/],
