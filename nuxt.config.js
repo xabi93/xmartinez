@@ -1,19 +1,23 @@
 import locales from './locales'
 
 export default {
-  mode: 'spa',
+  ssr: false,
+  target: 'static',
   /*
    ** Headers of the page
    */
   head: {
     title: process.env.npm_package_name || '',
+    htmlAttrs: {
+      lang: 'en',
+    },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'description',
         name: 'description',
-        content: process.env.npm_package_description || '',
+        content: 'I’m Xabi. I’m a Software Developer. On this site you will be able to know more about me, and contact.',
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
@@ -98,9 +102,7 @@ export default {
    */
   axios: {},
   router: {},
-  generate: {
-    // exclude: ['cv']
-  },
+  generate: {},
   /*
    ** Build configuration
    */

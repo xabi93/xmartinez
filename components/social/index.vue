@@ -1,9 +1,9 @@
 <template>
   <div class="flex w-full justify-center max-w-md">
-    <social-button :link="$t('contact.twitter.url')" :icon="twitter" />
-    <social-button :link="$t('contact.linkedin.url')" :icon="linkedin" />
-    <social-button :link="$t('contact.github.url')" :icon="github" />
-    <social-button :link="$t('contact.instagram.url')" :icon="instagram" />
+    <social-button :link="$t('contact.twitter.url')" :icon="twitter" label="twitter" />
+    <social-button :link="$t('contact.linkedin.url')" :icon="linkedin"  label="linkedin" />
+    <social-button :link="$t('contact.github.url')" :icon="github"  label="github"/>
+    <social-button :link="$t('contact.instagram.url')" :icon="instagram"  label="instagram" />
   </div>
 </template>
 <script>

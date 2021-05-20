@@ -6,13 +6,33 @@
       </span>
     </div>
     <div
-      class="flex items-center flex-col h-full text-center text-white justify-center"
+      class="
+        flex
+        items-center
+        flex-col
+        h-full
+        text-center text-white
+        justify-center
+      "
     >
       <div class="w-48 h-48">
         <img
-          class="w-full h-full rounded-full overflow-hidden shadow-inner object-cover object-center w-full h-full visible group-hover:hidden"
+          class="
+            w-full
+            h-full
+            rounded-full
+            overflow-hidden
+            shadow-inner
+            object-cover object-center
+            w-full
+            h-full
+            visible
+            group-hover:hidden
+          "
           src="~/assets/img/me.jpg"
           alt="Me"
+          height="100"
+          width="100"
         />
       </div>
       <div>
