@@ -10,10 +10,10 @@
 </template>
 
 <script>
-import MyHeader from '~/components/web/header'
-import AboutMe from '~/components/web/sections/about-me'
-import Experience from '~/components/web/sections/experience'
-import MyFooter from '~/components/web/footer'
+import MyHeader from '~/components/header'
+import AboutMe from '~/components/sections/about-me'
+import Experience from '~/components/sections/experience'
+import MyFooter from '~/components/footer'
 
 export default {
   components: {

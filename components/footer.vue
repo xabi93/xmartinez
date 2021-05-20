@@ -1,7 +1,16 @@
 <template>
   <footer class="bg-header-gb w-full">
     <div
-      class="container mx-auto pt-6 pb-3 px-10 sm:pt-12 sm:pb-8 text-center text-white"
+      class="
+        container
+        mx-auto
+        pt-6
+        pb-3
+        px-10
+        sm:pt-12
+        sm:pb-8
+        text-center text-white
+      "
     >
       <mail-me />
       <span class="mx-2">or</span>
@@ -9,7 +18,7 @@
       <social class="border-white mt-6 w-full mx-auto" />
     </div>
     <div class="text-center">
-      <span class="text-gray-600 text-xs mt-2">
+      <span class="text-white text-xs mt-2">
         Made with <fa :icon="hearth" /> and <fa :icon="vuejs" />
       </span>
     </div>
