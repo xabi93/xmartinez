@@ -5,7 +5,7 @@
   "author": "xabi",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
+    "dev": "nuxt dev",
     "build": "nuxt build",
     "start": "nuxt start --port 3333",
     "generate": "nuxt generate",
@@ -27,7 +27,7 @@
     "@nuxtjs/google-analytics": "^2.4.0",
     "date-fns": "^2.21.3",
     "node-sass": "^6.0.0",
-    "nuxt": "^2.2.0",
+    "nuxt": "^2.15.6",
     "nuxt-i18n": "^6.27.0",
     "ramda": "^0.27.1"
   },
@@ -38,8 +38,8 @@
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
     "@nuxtjs/eslint-config": "^6.0.0",
     "@nuxtjs/eslint-module": "^3.0.2",
-    "@nuxtjs/fontawesome": "^1.1.1",
-    "@nuxtjs/tailwindcss": "^3.4.3",
+    "@nuxtjs/fontawesome": "^1.1.2",
+    "@nuxtjs/tailwindcss": "^4.1.2",
     "babel-eslint": "^10.0.1",
     "eslint": "^7.26.0",
     "eslint-config-prettier": "^8.3.0",
@@ -50,9 +50,13 @@
     "imagemin-pngquant": "^9.0.2",
     "imagemin-svgo": "^9.0.0",
     "lint-staged": "^11.0.0",
+    "nuxt-vite": "^0.1.0",
     "nuxt-webfontloader": "^1.1.0",
+    "postcss": "^8.2.15",
     "postcss-import": "^14.0.2",
     "prettier": "^2.3.0",
-    "sass-loader": "^10.1.1"
+    "sass": "^1.32.13",
+    "sass-loader": "^10.1.1",
+    "webpack": "^4.46.0"
   }
 }

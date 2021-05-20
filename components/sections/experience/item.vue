@@ -1,10 +1,20 @@
 <template>
   <div class="w-full lg:flex">
-    <div class="bg-white rounded-b p-4 flex justify-between leading-normal">
+    <div class="flex justify-between leading-normal sm:p-4">
       <img
         :alt="job.company"
         :src="require(`~/assets/img/companies/${job.logo}`)"
-        class="w-12 h-12 rounded-full mr-4 border border-grey-light z-10 bg-white"
+        class="
+          w-12
+          h-12
+          rounded-full
+          mr-4
+          border border-grey-light
+          z-10
+          bg-white
+        "
+        height="100"
+        width="100"
       />
       <div>
         <div class="text-sm">
@@ -24,10 +34,21 @@
             >{{ job.company }}</a
           >
         </div>
-        <p class="text-grey-darker text-base text-justify">
-          {{ job.description }}
-        </p>
-        <div class="mt-3">
+        <ul class="">
+          <li
+            v-for="(desc, i) in job.description"
+            :key="i"
+            class="my-3 text-grey-darker text-base flex"
+          >
+            <div class="mr-2">
+              <fa :icon="check" />
+            </div>
+            <div class="text-justify">
+              {{ desc }}
+            </div>
+          </li>
+        </ul>
+        <div>
           <tag v-for="(tag, i) in job.tags" :key="i" :name="tag" />
         </div>
       </div>
@@ -37,6 +58,7 @@
 
 <script>
 import { isNil } from 'ramda'
+import { faCheck } from '@fortawesome/free-solid-svg-icons'
 
 import Tag from './tag'
 
@@ -56,6 +78,9 @@ export default {
       return isNil(this.job.end)
         ? this.$t('sections.experience.present')
         : this.$d(new Date(this.job.end), 'yearMonth')
+    },
+    check() {
+      return faCheck
     },
   },
 }
