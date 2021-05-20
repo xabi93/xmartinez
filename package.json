@@ -53,6 +53,6 @@
     "nuxt-webfontloader": "^1.1.0",
     "postcss-import": "^14.0.2",
     "prettier": "^2.3.0",
-    "sass-loader": "^10.1.1"
+    "sass-loader": "^11.1.1"
   }
 }
